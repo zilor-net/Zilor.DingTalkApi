@@ -3,13 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Zilor.DingTalkApi</PackageId>
-    <Version>0.0.3-alpha</Version>
+    <Version>0.0.4-alpha</Version>
     <Authors>Zilor</Authors>
     <Company>Zilor</Company>
     <PackageDescription>钉钉开放平台服务端 API</PackageDescription>
     <PackageTags>DingTalk;DingDing</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/buker2012/Zilor.DingTalkApi</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
