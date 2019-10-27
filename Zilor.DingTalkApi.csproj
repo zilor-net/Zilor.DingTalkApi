@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Zilor.DingTalkApi</PackageId>
-    <Version>0.0.5-alpha</Version>
+    <Version>0.0.7-alpha</Version>
     <Authors>Zilor</Authors>
     <Company>Zilor</Company>
     <PackageDescription>钉钉开放平台服务端 API</PackageDescription>

@@ -2,7 +2,9 @@
 
 基本使用
 ```c#
-var ding = new DingTalkApi {
+using Zilor.DingTalkApi;
+
+var ding = new DingTalkClient {
     Appkey = "appkey",
     Appsecret = "appsecret"
 };
@@ -10,12 +12,16 @@ var ding = new DingTalkApi {
 
 依赖注入
 ```c#
+using Zilor.DingTalkApi;
+
 public void ConfigureServices(IServiceCollection services) {
     services.AddDingTalk("appkey", "appsecret");
 }
 
+private DingTalkClient _dingTalkClient { get; set; }
+
 //在控制器使用
-public HelloController(DingTalkApi ding) {
-    
+public HelloController(DingTalkClient ding) {
+    _dingTalkClient = ding;
 }
 ```
