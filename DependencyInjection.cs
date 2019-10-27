@@ -9,7 +9,7 @@ namespace Zilor.DingTalkApi
     {
         public static IServiceCollection AddDingTalk(this IServiceCollection services, string appkey, string appsecret)
         {
-            var dingTalk = new DingTalkApi { Appkey = appkey, Appsecret = appsecret };
+            var dingTalk = new DingTalkClient { Appkey = appkey, Appsecret = appsecret };
             services.AddSingleton(dingTalk);
             return services;
         }

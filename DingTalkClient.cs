@@ -4,7 +4,7 @@ using DingTalk.Api.Request;
 
 namespace Zilor.DingTalkApi
 {
-    public class DingTalkApi
+    public class DingTalkClient
     {
         private string _accessToken;
         private DateTime _validTime;
