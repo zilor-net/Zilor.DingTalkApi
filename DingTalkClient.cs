@@ -31,7 +31,7 @@ namespace Zilor.DingTalkApi
                     throw new Exception(response.Errmsg);
 
                 _accessToken = response.AccessToken;
-                _validTime = DateTime.Now.AddSeconds(7000);
+                _validTime = DateTime.Now.AddSeconds(8000);
                 return _accessToken;
             }
         }
